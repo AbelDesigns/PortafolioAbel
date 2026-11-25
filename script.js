@@ -27,7 +27,8 @@
     lenis = new window.Lenis({
       lerp: 0.14,
       smoothWheel: true,
-      touchMultiplier: 1.3
+      touchMultiplier: 1.3,
+      prevent: (node) => Boolean(node && node.closest && node.closest('.case-modal, .admin-overlay, .nav-drawer'))
     });
 
     if (hasGSAP) {

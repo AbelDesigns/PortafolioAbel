@@ -888,10 +888,37 @@ footer[id] {
   width: clamp(72px, 9.5vw, 140px);
   height: clamp(56px, 7.6vw, 112px);
   background: #fafafa;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
 }
 
 .hero-pill-media--portrait img {
   object-position: center 58%;
+}
+
+.hero-pill-media__badge {
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  transform: translate(-50%, 130%);
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(17, 17, 16, 0.88);
+  color: var(--lime);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.28s var(--ease-out), opacity 0.24s ease;
+}
+
+.hero-pill-media--portrait:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
 }
 
 .hero-pill-media--work {
@@ -902,6 +929,12 @@ footer[id] {
   .hero-pill-media--portrait:hover {
     transform: translateY(-0.08em) rotate(-2.5deg) scale(1.06);
     box-shadow: 0 14px 30px rgba(24, 30, 18, 0.18);
+  }
+
+  .hero-pill-media--portrait:hover .hero-pill-media__badge,
+  .hero-pill-media--portrait:focus-visible .hero-pill-media__badge {
+    transform: translate(-50%, 0);
+    opacity: 1;
   }
 
   .hero-pill-media--work:hover {
@@ -2478,6 +2511,264 @@ footer[id] {
 
   .case-detail__next:hover .case-detail__next-arrow {
     transform: translateX(4px);
+  }
+}
+
+/* Toast Notification */
+/* ==========================================================================
+   FULL-SCREEN EDITORIAL ABOUT ME VIEW (#aboutModal)
+========================================================================== */
+.about-container {
+  gap: clamp(32px, 4.5vw, 56px);
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+  gap: clamp(28px, 4.5vw, 56px);
+  align-items: start;
+}
+
+.about-portrait-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-portrait-card__frame {
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #f2f1ec;
+  border: 1px solid var(--light-border);
+  box-shadow: 0 18px 44px rgba(17, 17, 16, 0.08);
+}
+
+.about-portrait-card__frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  display: block;
+}
+
+.about-portrait-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--stone);
+}
+
+.about-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-intro__title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(2.15rem, 4.4vw, 3.7rem);
+  line-height: 1.06;
+  letter-spacing: -0.024em;
+  color: var(--ink);
+}
+
+.about-intro__lead {
+  font-size: clamp(1.04rem, 1.35vw, 1.2rem);
+  line-height: 1.62;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.about-intro__body {
+  font-size: 0.98rem;
+  line-height: 1.72;
+  color: var(--muted);
+}
+
+.about-intro__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.about-intro__socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.about-intro__socials a {
+  transition: color 0.2s ease;
+}
+
+.about-intro__socials a:hover {
+  color: var(--ink);
+}
+
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.about-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 18px;
+  background: var(--stone);
+  border: 1px solid var(--light-border);
+}
+
+.about-fact strong {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+  line-height: 1;
+  color: var(--ink);
+}
+
+.about-fact span {
+  font-size: 0.84rem;
+  line-height: 1.48;
+  color: var(--muted);
+}
+
+.about-columns {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 20px;
+}
+
+.about-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(22px, 2.8vw, 32px);
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid var(--light-border);
+}
+
+.about-panel h3 {
+  font-size: 1.28rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+
+.about-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.94rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.about-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #242e1a;
+}
+
+.about-pills {
+  margin-top: 2px;
+}
+
+.about-panel__note {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--muted);
+  border-top: 1px solid var(--light-border);
+}
+
+.about-principles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.about-principle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  border-radius: 20px;
+  background: #11170f;
+  color: var(--bone);
+  border: 1px solid rgba(244, 243, 238, 0.08);
+}
+
+.about-principle .mono-tag {
+  color: var(--lime);
+}
+
+.about-principle h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.about-principle p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--muted-dark);
+}
+
+@media (max-width: 900px) {
+  .about-hero,
+  .about-columns,
+  .about-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .about-portrait-card__frame {
+    max-width: 320px;
+  }
+
+  .about-facts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-facts {
+    grid-template-columns: 1fr;
   }
 }
 

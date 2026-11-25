@@ -130,6 +130,7 @@
         'cat.branding': 'BRANDING',
 
         'hero.yearsTag': '8+ AÑOS DE EXPERIENCIA',
+        'hero.aboutBadge': 'Sobre mí',
         'hero.ctaPrimary': 'Ver proyectos',
         'hero.ctaSecondary': 'Escribir por WhatsApp',
         'hero.scrollCue': 'Baja para ver cómo trabajo',
@@ -248,7 +249,44 @@
         'modal.appDemoCta': 'Ver demo de la App',
         'modal.dribbbleCta': 'Ver proyecto en Dribbble',
         'modal.behanceCta': 'Ver proyecto en Behance',
-        'modal.quoteCta': 'Hablar sobre un proyecto similar'
+        'modal.quoteCta': 'Hablar sobre un proyecto similar',
+
+        'about.barTag': 'SOBRE MÍ · ABEL ACOSTA',
+        'about.status': 'Disponible para proyectos · Remoto',
+        'about.location': 'MARACAIBO, VENEZUELA · GMT-4',
+        'about.kicker': 'PRODUCT DESIGNER · UI/UX & BRANDING',
+        'about.bio1':
+          'Soy Abel Acosta, Diseñador UI/UX y Especialista en Branding con más de 8 años ayudando a startups, agencias y empresas B2B y B2C a transformar ideas complejas en productos claros, escalables y rentables.',
+        'about.bio2':
+          'He colaborado de forma remota con equipos en España, República Dominicana, Venezuela y clientes globales —como Infinite Group, Kayratech, Sepia Creativa, Zip Zap Social PR y Freepik · Slidesgo— combinando UX Research, sistemas de diseño en Figma y dirección de arte para que cada marca se vea memorable y convierta mejor.',
+        'about.ctaWa': 'Escribir por WhatsApp',
+        'about.fact1': 'Años diseñando producto digital, web y branding',
+        'about.fact2': 'Fintech, SaaS, hospitalidad, movilidad y marcas de consumo',
+        'about.fact3': 'Trabajo fluido con equipos remotos en Latinoamérica, España y EE. UU.',
+        'about.fact4': 'Comunicación directa, entregas ordenadas y respuesta ágil',
+        'about.specLabel': 'EN QUÉ PUEDO AYUDARTE',
+        'about.specTitle': 'Especialidades principales',
+        'about.spec1': 'Diseño de Producto UI/UX (Apps móviles, SaaS y plataformas B2B/B2C)',
+        'about.spec2': 'Sitios Web a Medida y Landing Pages enfocadas en conversión (CRO)',
+        'about.spec3': 'Branding Estratégico, Identidad Visual y Sistemas de Packaging',
+        'about.spec4': 'Design Systems en Figma con Autolayout, variables y handoff a desarrollo',
+        'about.spec5': 'UX Research, Auditorías de Usabilidad, Prototipado y Pruebas A/B',
+        'about.toolsLabel': 'HERRAMIENTAS & FLUJO',
+        'about.toolsTitle': 'Stack diario de diseño',
+        'about.toolAi': 'IA Generativa',
+        'about.toolsNote':
+          'Cada proyecto se entrega con archivos limpios, componentes documentados y especificaciones listas para que ingeniería o imprenta produzcan sin fricción.',
+        'about.p1Title': 'Datos antes que suposiciones',
+        'about.p1Desc':
+          'Escucho el negocio, analizo el comportamiento real del usuario y defino una dirección clara antes de diseñar la primera pantalla.',
+        'about.p2Title': 'Estética con objetivo comercial',
+        'about.p2Desc':
+          'El diseño no es decoración: cada tipografía, jerarquía y micro-interacción existe para elevar el valor percibido y facilitar la decisión del cliente.',
+        'about.p3Title': 'Sistemas hechos para escalar',
+        'about.p3Desc':
+          'Construyo marcas y librerías modulares para que tu producto crezca con consistencia meses después del lanzamiento.',
+        'about.nextKicker': 'EXPLORAR TRABAJO',
+        'about.nextTitle': 'Ver proyectos seleccionados'
       },
       heroTracks: {
         all: {
@@ -289,7 +327,8 @@
         'story.ch3Title': 'Marca memorable y <em class="serif-accent">conversión</em> medible.',
         'projects.title': '<strong>Proyectos</strong> <span class="mandelo-serif">selectos</span>',
         'exp.title': '8+ años diseñando para <em class="serif-accent">equipos remotos.</em>',
-        'contact.headline': '¿Tienes una web o <em class="serif-accent">marca</em> en mente?'
+        'contact.headline': '¿Tienes una web o <em class="serif-accent">marca</em> en mente?',
+        'about.headline': 'Diseño productos digitales y marcas con <em class="serif-accent">claridad, criterio y propósito.</em>'
       }
     },
     en: {
@@ -328,6 +367,7 @@
         'cat.branding': 'BRANDING',
 
         'hero.yearsTag': '8+ YEARS EXPERIENCE',
+        'hero.aboutBadge': 'About me',
         'hero.ctaPrimary': 'See projects',
         'hero.ctaSecondary': 'Message on WhatsApp',
         'hero.scrollCue': 'Scroll to see how I work',
@@ -446,7 +486,44 @@
         'modal.appDemoCta': 'View App Demo',
         'modal.dribbbleCta': 'View project on Dribbble',
         'modal.behanceCta': 'View project on Behance',
-        'modal.quoteCta': 'Discuss a similar project'
+        'modal.quoteCta': 'Discuss a similar project',
+
+        'about.barTag': 'ABOUT ME · ABEL ACOSTA',
+        'about.status': 'Available for projects · Remote',
+        'about.location': 'MARACAIBO, VENEZUELA · GMT-4',
+        'about.kicker': 'PRODUCT DESIGNER · UI/UX & BRANDING',
+        'about.bio1':
+          'I’m Abel Acosta, a UI/UX Designer and Branding Specialist with 8+ years helping startups, agencies, and B2B & B2C companies turn complex ideas into clear, scalable, conversion-focused digital products.',
+        'about.bio2':
+          'I’ve partnered remotely with teams across Spain, the Dominican Republic, Venezuela, and global clients—including Infinite Group, Kayratech, Sepia Creativa, Zip Zap Social PR, and Freepik · Slidesgo—combining UX Research, tokenized Figma Design Systems, and art direction so every brand stands out and converts.',
+        'about.ctaWa': 'Message on WhatsApp',
+        'about.fact1': 'Years crafting digital products, websites & brand systems',
+        'about.fact2': 'Fintech, SaaS, hospitality, mobility & consumer brands',
+        'about.fact3': 'Seamless remote collaboration across LATAM, Spain & US time zones',
+        'about.fact4': 'Direct communication, structured handoffs & fast turnaround',
+        'about.specLabel': 'HOW I CAN HELP',
+        'about.specTitle': 'Core capabilities',
+        'about.spec1': 'UI/UX Product Design (Mobile apps, SaaS & B2B/B2C platforms)',
+        'about.spec2': 'Custom Websites & High-Converting Landing Pages (CRO)',
+        'about.spec3': 'Strategic Branding, Visual Identity & Packaging Systems',
+        'about.spec4': 'Figma Design Systems with Autolayout, variables & dev-ready handoff',
+        'about.spec5': 'UX Research, Usability Audits, Interactive Prototyping & A/B Testing',
+        'about.toolsLabel': 'TOOLS & WORKFLOW',
+        'about.toolsTitle': 'Daily design stack',
+        'about.toolAi': 'Generative AI',
+        'about.toolsNote':
+          'Every project is delivered with clean Figma architecture, documented components, and specs ready for engineering or print production without friction.',
+        'about.p1Title': 'Data before guesswork',
+        'about.p1Desc':
+          'I listen to your business goals, study real user behavior, and align on a clear direction before pushing the first pixel.',
+        'about.p2Title': 'Craft tied to business outcomes',
+        'about.p2Desc':
+          'Design isn’t decoration: every type scale, hierarchy, and interaction exists to elevate perceived value and drive action.',
+        'about.p3Title': 'Systems built to scale',
+        'about.p3Desc':
+          'I build modular brands and component libraries so your team can ship consistently long after launch.',
+        'about.nextKicker': 'EXPLORE WORK',
+        'about.nextTitle': 'View selected projects'
       },
       heroTracks: {
         all: {
@@ -487,7 +564,8 @@
         'story.ch3Title': 'Distinct brand, measurable <em class="serif-accent">conversion.</em>',
         'projects.title': '<strong>Selected</strong> <span class="mandelo-serif">work</span>',
         'exp.title': '8+ years designing for <em class="serif-accent">remote teams.</em>',
-        'contact.headline': 'Have a website or <em class="serif-accent">brand</em> in mind?'
+        'contact.headline': 'Have a website or <em class="serif-accent">brand</em> in mind?',
+        'about.headline': 'I design digital products and brands with <em class="serif-accent">clarity, rigor, and purpose.</em>'
       }
     }
   };
@@ -1759,12 +1837,78 @@
     if (nextCaseId) openCaseModal(nextCaseId);
   });
 
+  /* ------------------------------------------------------------------------
+     05.5 FULL-SCREEN EDITORIAL ABOUT ME VIEW (Click on Hero Portrait)
+  ------------------------------------------------------------------------ */
+  const aboutModal = document.getElementById('aboutModal');
+  const aboutModalPanel = document.getElementById('aboutModalPanel');
+  const aboutWaBtn = document.getElementById('aboutWaBtn');
+  let aboutOpen = false;
+
+  function openAboutModal(updateHash = true) {
+    if (!aboutModal) return;
+    if (activeCaseId) closeCaseModal(false);
+    setMenuOpen(false);
+    aboutOpen = true;
+    if (aboutModalPanel) aboutModalPanel.scrollTop = 0;
+    aboutModal.classList.add('is-open');
+    aboutModal.setAttribute('aria-hidden', 'false');
+    lockPageScroll(true);
+
+    if (updateHash && window.location.hash !== '#sobre-mi') {
+      history.pushState({ view: 'about' }, '', '#sobre-mi');
+    }
+
+    if (hasGSAP && !prefersReducedMotion) {
+      gsap.fromTo(
+        '.about-hero, .about-facts, .about-columns, .about-principles',
+        { y: 18, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.42, stagger: 0.06, delay: 0.05, ease: 'power3.out', overwrite: true, clearProps: 'transform' }
+      );
+    }
+  }
+
+  function closeAboutModal(updateHash = true) {
+    if (!aboutModal || !aboutOpen) return;
+    aboutOpen = false;
+    aboutModal.classList.remove('is-open');
+    aboutModal.setAttribute('aria-hidden', 'true');
+    lockPageScroll(Boolean(navShell?.classList.contains('is-open') || activeCaseId));
+    if (updateHash && (window.location.hash === '#sobre-mi' || window.location.hash === '#about')) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  }
+
+  document.querySelectorAll('[data-open-about]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openAboutModal(true);
+    });
+  });
+
+  document.querySelectorAll('[data-close-about]').forEach((el) => {
+    el.addEventListener('click', () => {
+      closeAboutModal(true);
+      const href = el.getAttribute('href');
+      if (href && href.startsWith('#') && href.length > 1) {
+        const target = document.querySelector(href);
+        if (target && lenis) {
+          requestAnimationFrame(() => lenis.scrollTo(target, { offset: 0, duration: 1.0 }));
+        }
+      }
+    });
+  });
+
   window.addEventListener('popstate', () => {
     const match = window.location.hash.match(/^#proyecto\/([a-z0-9-]+)$/i);
     if (match && caseStudies[match[1]]) {
+      closeAboutModal(false);
       openCaseModal(match[1], false);
-    } else if (activeCaseId) {
-      closeCaseModal(false);
+    } else if (window.location.hash === '#sobre-mi' || window.location.hash === '#about') {
+      openAboutModal(false);
+    } else {
+      if (activeCaseId) closeCaseModal(false);
+      if (aboutOpen) closeAboutModal(false);
     }
   });
 
@@ -1942,6 +2086,7 @@
 
     if (heroWaBtn) heroWaBtn.href = dict.waHero;
     if (footerWaBtn) footerWaBtn.href = dict.waFooter;
+    if (aboutWaBtn) aboutWaBtn.href = dict.waHero;
 
     updateNavLabel();
     buildManifesto(safeLang);
@@ -2073,6 +2218,7 @@
       const adminOverlay = document.getElementById('adminOverlay');
       if (adminOverlay && adminOverlay.classList.contains('is-open')) return;
       setMenuOpen(false);
+      closeAboutModal();
       closeCaseModal();
     }
   });
@@ -2251,10 +2397,12 @@
   scheduleHeroEntrance();
   initSectionScrollTriggers();
 
-  // Support direct deep links like #proyecto/vantage
+  // Support direct deep links like #proyecto/vantage or #sobre-mi
   const initProjectMatch = window.location.hash.match(/^#proyecto\/([a-z0-9-]+)$/i);
   if (initProjectMatch && caseStudies[initProjectMatch[1]]) {
     openCaseModal(initProjectMatch[1], false);
+  } else if (window.location.hash === '#sobre-mi' || window.location.hash === '#about') {
+    openAboutModal(false);
   }
 
   // Load live data/projects.json (keeps GitHub Pages & localhost synced automatically)

@@ -167,7 +167,13 @@
             <span class="hero-line-mask">
               <span class="hero-line-inner">
                 <span id="heroT1a">Soy Abel</span>
-                <span class="hero-pill-media hero-pill-media--portrait">
+                <button
+                  type="button"
+                  class="hero-pill-media hero-pill-media--portrait"
+                  id="heroPortraitBtn"
+                  data-open-about
+                  aria-label="Sobre mí — Conocer más sobre Abel Acosta"
+                >
                   <img
                     src="assets/abel-portrait.jpg"
                     alt="Abel Acosta, Diseñador UI/UX y Especialista en Branding"
@@ -176,7 +182,8 @@
                     fetchpriority="high"
                     decoding="async"
                   />
-                </span>
+                  <span class="hero-pill-media__badge" data-i18n="hero.aboutBadge">Sobre mí</span>
+                </button>
                 <span id="heroT1b">diseño experiencias</span>
               </span>
             </span>
@@ -1137,6 +1144,168 @@
             </span>
             <span class="case-detail__next-arrow" aria-hidden="true">→</span>
           </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       FULL-SCREEN EDITORIAL ABOUT ME VIEW (Opened by clicking Hero Portrait)
+  ====================================================================== -->
+  <div class="case-modal about-modal" id="aboutModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+    <div class="case-modal__panel" id="aboutModalPanel">
+      <!-- Sticky Minimal Top Bar -->
+      <header class="case-modal__bar">
+        <button type="button" class="case-modal__back" data-close-about aria-label="Volver al portafolio">
+          <span aria-hidden="true">←</span>
+          <span data-i18n="modal.back">Volver al portafolio</span>
+        </button>
+
+        <span class="mono-tag case-modal__bar-tag hide-sm" data-i18n="about.barTag">SOBRE MÍ · ABEL ACOSTA</span>
+
+        <div class="case-modal__bar-right">
+          <button type="button" class="case-modal__close" data-close-about aria-label="Cerrar sección sobre mí" data-i18n="modal.close">CERRAR ✕</button>
+        </div>
+      </header>
+
+      <!-- Editorial About Me Body -->
+      <div class="case-modal__body">
+        <div class="case-detail__container about-container">
+          <!-- 1. Portrait + Intro Editorial Grid -->
+          <section class="about-hero">
+            <div class="about-portrait-card">
+              <div class="about-portrait-card__frame">
+                <img src="assets/abel-portrait.jpg" alt="Abel Acosta — Diseñador UI/UX &amp; Especialista en Branding" decoding="async" />
+              </div>
+              <div class="about-portrait-card__meta">
+                <span class="about-status">
+                  <span class="status-dot"></span>
+                  <span data-i18n="about.status">Disponible para proyectos · Remoto</span>
+                </span>
+                <span class="mono-tag" data-i18n="about.location">MARACAIBO, VENEZUELA · GMT-4</span>
+              </div>
+            </div>
+
+            <div class="about-intro">
+              <span class="mono-tag" data-i18n="about.kicker">PRODUCT DESIGNER · UI/UX &amp; BRANDING</span>
+              <h2 class="about-intro__title" id="aboutTitle" data-i18n-html="about.headline">
+                Diseño productos digitales y marcas con <em class="serif-accent">claridad, criterio y propósito.</em>
+              </h2>
+              <p class="about-intro__lead" data-i18n="about.bio1">
+                Soy Abel Acosta, Diseñador UI/UX y Especialista en Branding con más de 8 años ayudando a startups, agencias y empresas B2B y B2C a transformar ideas complejas en productos claros, escalables y rentables.
+              </p>
+              <p class="about-intro__body" data-i18n="about.bio2">
+                He colaborado de forma remota con equipos en España, República Dominicana, Venezuela y clientes globales —como Infinite Group, Kayratech, Sepia Creativa, Zip Zap Social PR y Freepik · Slidesgo— combinando UX Research, sistemas de diseño en Figma y dirección de arte para que cada marca se vea memorable y convierta mejor.
+              </p>
+
+              <div class="about-intro__actions">
+                <a
+                  href="https://wa.me/584146051180?text=Hola%20Abel%2C%20le%C3%AD%20tu%20perfil%20y%20quiero%20conversar%20sobre%20un%20proyecto."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn--primary"
+                  id="aboutWaBtn"
+                >
+                  <span data-i18n="about.ctaWa">Escribir por WhatsApp</span>
+                  <span class="btn__circle" aria-hidden="true">↗</span>
+                </a>
+                <button type="button" class="btn btn--ghost" data-copy-email="Abel25.aaa@gmail.com">
+                  <span>Abel25.aaa@gmail.com</span>
+                </button>
+              </div>
+
+              <div class="about-intro__socials">
+                <a href="https://www.linkedin.com/in/abelacosta-designer/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://www.behance.net/abelacosta" target="_blank" rel="noopener noreferrer">Behance ↗</a>
+                <a href="https://dribbble.com/AbelAcosta" target="_blank" rel="noopener noreferrer">Dribbble ↗</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2. Key Facts Strip -->
+          <section class="about-facts" aria-label="Datos clave">
+            <div class="about-fact">
+              <strong>8+</strong>
+              <span data-i18n="about.fact1">Años diseñando producto digital, web y branding</span>
+            </div>
+            <div class="about-fact">
+              <strong>B2B &amp; B2C</strong>
+              <span data-i18n="about.fact2">Fintech, SaaS, hospitalidad, movilidad y marcas de consumo</span>
+            </div>
+            <div class="about-fact">
+              <strong>ES / EN</strong>
+              <span data-i18n="about.fact3">Trabajo fluido con equipos remotos en Latinoamérica, España y EE. UU.</span>
+            </div>
+            <div class="about-fact">
+              <strong>&lt; 24 h</strong>
+              <span data-i18n="about.fact4">Comunicación directa, entregas ordenadas y respuesta ágil</span>
+            </div>
+          </section>
+
+          <!-- 3. Specialties & Stack -->
+          <section class="about-columns">
+            <div class="about-panel">
+              <span class="mono-tag" data-i18n="about.specLabel">EN QUÉ PUEDO AYUDARTE</span>
+              <h3 data-i18n="about.specTitle">Especialidades principales</h3>
+              <ul class="about-list">
+                <li data-i18n="about.spec1">Diseño de Producto UI/UX (Apps móviles, SaaS y plataformas B2B/B2C)</li>
+                <li data-i18n="about.spec2">Sitios Web a Medida y Landing Pages enfocadas en conversión (CRO)</li>
+                <li data-i18n="about.spec3">Branding Estratégico, Identidad Visual y Sistemas de Packaging</li>
+                <li data-i18n="about.spec4">Design Systems en Figma con Autolayout, variables y handoff a desarrollo</li>
+                <li data-i18n="about.spec5">UX Research, Auditorías de Usabilidad, Prototipado y Pruebas A/B</li>
+              </ul>
+            </div>
+
+            <div class="about-panel">
+              <span class="mono-tag" data-i18n="about.toolsLabel">HERRAMIENTAS &amp; FLUJO</span>
+              <h3 data-i18n="about.toolsTitle">Stack diario de diseño</h3>
+              <div class="case-modal__pills about-pills">
+                <span>Figma</span>
+                <span>Autolayout &amp; Variables</span>
+                <span>Design Systems</span>
+                <span>Illustrator</span>
+                <span>Photoshop</span>
+                <span>Miro &amp; FigJam</span>
+                <span>Notion</span>
+                <span>Google Analytics (GA4)</span>
+                <span>HTML / CSS</span>
+                <span>UX Writing</span>
+                <span>CRO</span>
+                <span data-i18n="about.toolAi">IA Generativa</span>
+              </div>
+              <p class="about-panel__note" data-i18n="about.toolsNote">
+                Cada proyecto se entrega con archivos limpios, componentes documentados y especificaciones listas para que ingeniería o imprenta produzcan sin fricción.
+              </p>
+            </div>
+          </section>
+
+          <!-- 4. How I Work Principles -->
+          <section class="about-principles">
+            <article class="about-principle">
+              <span class="mono-tag">01</span>
+              <h4 data-i18n="about.p1Title">Datos antes que suposiciones</h4>
+              <p data-i18n="about.p1Desc">Escucho el negocio, analizo el comportamiento real del usuario y defino una dirección clara antes de diseñar la primera pantalla.</p>
+            </article>
+            <article class="about-principle">
+              <span class="mono-tag">02</span>
+              <h4 data-i18n="about.p2Title">Estética con objetivo comercial</h4>
+              <p data-i18n="about.p2Desc">El diseño no es decoración: cada tipografía, jerarquía y micro-interacción existe para elevar el valor percibido y facilitar la decisión del cliente.</p>
+            </article>
+            <article class="about-principle">
+              <span class="mono-tag">03</span>
+              <h4 data-i18n="about.p3Title">Sistemas hechos para escalar</h4>
+              <p data-i18n="about.p3Desc">Construyo marcas y librerías modulares para que tu producto crezca con consistencia meses después del lanzamiento.</p>
+            </article>
+          </section>
+
+          <!-- 5. Jump to Projects Card -->
+          <a href="#proyectos" class="case-detail__next" data-close-about>
+            <span class="case-detail__next-meta">
+              <span class="mono-tag" data-i18n="about.nextKicker">EXPLORAR TRABAJO</span>
+              <strong data-i18n="about.nextTitle">Ver proyectos seleccionados</strong>
+            </span>
+            <span class="case-detail__next-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </div>

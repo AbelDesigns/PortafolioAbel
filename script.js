@@ -825,31 +825,34 @@
     activeCards.forEach((card) => gsap.set(card, { clearProps: 'transform,filter' }));
 
     const n = activeCards.length;
-    activeCards.forEach((card, i) => {
-      const nextCard = activeCards[i + 1];
-      if (!nextCard) return;
-      const targetScale = 1 - (n - 1 - i) * 0.032;
+    const useStickyScale = window.innerWidth > 1024;
+    if (useStickyScale) {
+      activeCards.forEach((card, i) => {
+        const nextCard = activeCards[i + 1];
+        if (!nextCard) return;
+        const targetScale = 1 - (n - 1 - i) * 0.032;
 
-      const tween = gsap.fromTo(
-        card,
-        { scale: 1 },
-        {
-          scale: targetScale,
-          transformOrigin: 'top center',
-          ease: 'none',
-          scrollTrigger: {
-            trigger: nextCard,
-            start: 'top 86%',
-            end: 'top 16%',
-            scrub: true
+        const tween = gsap.fromTo(
+          card,
+          { scale: 1 },
+          {
+            scale: targetScale,
+            transformOrigin: 'top center',
+            ease: 'none',
+            scrollTrigger: {
+              trigger: nextCard,
+              start: 'top 86%',
+              end: 'top 16%',
+              scrub: true
+            }
           }
-        }
-      );
+        );
 
-      if (tween.scrollTrigger) {
-        stackTriggers.push(tween.scrollTrigger);
-      }
-    });
+        if (tween.scrollTrigger) {
+          stackTriggers.push(tween.scrollTrigger);
+        }
+      });
+    }
 
     // Fine-line Swiss blueprint SVG stroke-draw choreography per visible card
     activeCards.forEach((card) => {
@@ -860,7 +863,7 @@
       const bpTl = gsap.timeline({
         scrollTrigger: {
           trigger: card,
-          start: 'top 78%',
+          start: 'top 86%',
           once: true
         }
       });
@@ -2261,7 +2264,8 @@
     const arrow = document.createElement('span');
     arrow.className = 'mandelo-card__btn';
     arrow.setAttribute('aria-hidden', 'true');
-    arrow.textContent = '→';
+    arrow.innerHTML =
+      '<svg class="arrow-ico" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M9 4L13 8L9 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     footer.appendChild(titleEl);
     footer.appendChild(arrow);
 

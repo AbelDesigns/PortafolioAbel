@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "adminPasswordHash": "71a4d91bca233eaa20214a6e0885f6ee7c7deee3e7a13a1b06aeb9f55b638d57",
+  "projects": [
+    {
+      "id": "shift",
+      "cardTitle": "Shift Landing",
+      "category": "web",
+      "inSlider": true,
+      "tags": [
+        "WEB",
+        "AI PRODUCT",
+        "LIVE DEMO"
+      ],
+      "image": "assets/projects/shift.jpg",
+      "demoUrl": "https://abeldesigns.github.io/Shift---Landing/",
+      "appDemoUrl": "https://abeldesigns.github.io/Shift---Desktop-app/",
+      "url": "https://www.behance.net/gallery/258802215/Shift-AI-Assistant-Product-Design-Case-Study",
+      "source": "behance",
+      "gallery": [
+        {
+          "src": "assets/projects/shift-desktop.jpg",
+          "captionEs": "Shift Desktop App — Today’s Triage, prioridades auto-clasificadas, Focus Mode y actividad en segundo plano",
+          "captionEn": "Shift Desktop App — Today’s Triage, auto-triaged priorities, Focus Mode & autonomous background activity"
+        },
+        {
+          "src": "assets/projects/shift-mobile.jpg",
+          "captionEs": "Shift Mobile App — Flujo completo de Onboarding (01–04), Daily Brief, temporizador Focus 25:00, Activity Log y calendario",
+          "captionEn": "Shift Mobile App — End-to-end Onboarding (01–04), Daily Brief, 25:00 Focus timer, Activity Log & calendar"
+        }
+      ],
+      "es": {
+        "tag": "CASO 01 · LANDING + APP DESKTOP & MOBILE",
+        "client": "Shift · Silent AI Workspace",
+        "year": "PRODUCT & WEB DESIGN",
+        "title": "Shift — Landing, Desktop & Mobile App",
+        "impact": "Ecosistema Completo: Landing Web + App Desktop + App Mobile",
+        "challenge": "Diseñar el ecosistema integral de Shift —desde su landing de lanzamiento hasta la app de escritorio y la app móvil— para crear un workspace de IA silencioso que prioriza el día, sincroniza Gmail, Linear y Calendar y ejecuta acciones en un clic sin chats interminables.",
+        "solution": "Desarrollé la landing en vivo (“Execution at the speed of thought”), la Desktop App interactiva con Today’s Triage, Command Bar (⌘K) y actividad autónoma en segundo plano, y la Mobile App completa con Onboarding de 4 pasos, Daily Brief, Focus Mode y protección de calendario.",
+        "deliverables": [
+          "Landing Web (Demo)",
+          "Desktop App (Demo)",
+          "Mobile App UI/UX",
+          "Onboarding & Core Flows",
+          "Design System"
+        ]
+      },
+      "en": {
+        "tag": "CASE 01 · LANDING + DESKTOP & MOBILE APP",
+        "client": "Shift · Silent AI Workspace",
+        "year": "PRODUCT & WEB DESIGN",
+        "title": "Shift — Landing, Desktop & Mobile App",
+        "impact": "Full Ecosystem: Web Landing + Desktop App + Mobile App",
+        "challenge": "Design the complete Shift ecosystem—from launch landing page to the Desktop and Mobile apps—for a silent AI workspace that triages your day, syncs Gmail, Linear, and Calendar, and executes commands in one click without endless chat threads.",
+        "solution": "Crafted the live landing page (“Execution at the speed of thought”), the interactive Desktop App featuring Today’s Triage, Command Bar (⌘K), and autonomous background logs, plus the full Mobile App covering 4-step Onboarding, Daily Brief, Focus Mode, and deep-work calendar controls.",
+        "deliverables": [
+          "Web Landing (Live Demo)",
+          "Desktop App (Live Demo)",
+          "Mobile App UI/UX",
+          "Onboarding & Core Flows",
+          "Design System"
+        ]
+      }
+    },
+    {
+      "id": "fuelit",
+      "cardTitle": "Fuelit",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "BRANDING",
+        "IDENTITY"
+      ],
+      "image": "assets/projects/fuelit.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/248530269/Fuelit-Brand-Identity",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "BRANDING · IDENTIDAD DE MARCA",
+        "client": "Fuelit · Energía & Movilidad",
+        "year": "BRAND IDENTITY",
+        "title": "Fuelit — Brand Identity",
+        "impact": "Sistema de Identidad Visual de Alto Contraste & Dirección de Arte",
+        "challenge": "Construir una identidad de marca audaz y contemporánea para el sector de combustible y movilidad capaz de romper con la estética tradicional de las estaciones de servicio y proyectar velocidad, energía y eficiencia.",
+        "solution": "Diseñé un monograma geométrico “F” con dinamismo diagonal, un logotipo limpio de alto impacto y un sistema cromático nocturno verde neón sobre petróleo profundo, adaptable a señalética, aplicaciones digitales y dirección fotográfica.",
+        "deliverables": [
+          "Brand Identity",
+          "Logo & Monograma",
+          "Sistema Visual",
+          "Dirección de Arte",
+          "Paleta & Tipografía",
+          "Aplicaciones de Marca"
+        ]
+      },
+      "en": {
+        "tag": "BRANDING · BRAND IDENTITY",
+        "client": "Fuelit · Energy & Mobility",
+        "year": "BRAND IDENTITY",
+        "title": "Fuelit — Brand Identity",
+        "impact": "High-Contrast Visual Identity System & Art Direction",
+        "challenge": "Build a bold, contemporary brand identity for the fuel and mobility sector that breaks away from conventional service-station aesthetics while communicating speed, energy, and modern efficiency.",
+        "solution": "Crafted a forward-leaning geometric “F” monogram, clean high-impact wordmark, and deep-petrol + neon-lime visual system designed to scale seamlessly across signage, digital touchpoints, and editorial photography.",
+        "deliverables": [
+          "Brand Identity",
+          "Logo & Monogram",
+          "Visual System",
+          "Art Direction",
+          "Color & Typography",
+          "Brand Applications"
+        ]
+      }
+    },
+    {
+      "id": "vantage",
+      "cardTitle": "Vantage Capital",
+      "category": "web",
+      "inSlider": true,
+      "tags": [
+        "WEB",
+        "UI/UX",
+        "LIVE DEMO"
+      ],
+      "image": "assets/projects/vantage.jpg",
+      "demoUrl": "https://abeldesigns.github.io/Vantage-capital-landing/",
+      "appDemoUrl": "",
+      "url": "",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "CASO 02 · WEB FINTECH & LIVE DEMO",
+        "client": "Vantage Capital · Banca Privada y Tesorería",
+        "year": "WEB & PRODUCT DESIGN",
+        "title": "Vantage Capital Landing",
+        "impact": "Landing Interactiva + App Móvil Multi-Divisa (Live Demo)",
+        "challenge": "Diseñar y maquetar una landing fintech de banca privada que comunique acceso global, liquidez multi-divisa y rendimientos del Tesoro sin fricción visual, guiando al usuario a solicitar acceso o probar la demo interactiva.",
+        "solution": "Construí una interfaz oscura de alto contraste con acento dorado, módulos interactivos de transferencia global y tesorería, y un sistema coherente extendido a la aplicación móvil iOS/Android e icono de marca.",
+        "deliverables": [
+          "Diseño Web a Medida",
+          "UI/UX Fintech",
+          "Mobile App Concept",
+          "HTML/CSS/JS Demo",
+          "Dirección de Arte"
+        ]
+      },
+      "en": {
+        "tag": "CASE 02 · FINTECH WEB & LIVE DEMO",
+        "client": "Vantage Capital · Private Banking & Treasury",
+        "year": "WEB & PRODUCT DESIGN",
+        "title": "Vantage Capital Landing",
+        "impact": "Interactive Landing + Multi-Currency Mobile App (Live Demo)",
+        "challenge": "Design and build a private-banking fintech landing page that communicates global access, multi-currency liquidity, and Treasury yields with immediate clarity while driving private access and interactive demo clicks.",
+        "solution": "Crafted a high-contrast dark interface with gold accents, interactive global transfer and treasury cards, and a cohesive visual system extending into the iOS/Android mobile experience and app icon.",
+        "deliverables": [
+          "Custom Web Design",
+          "Fintech UI/UX",
+          "Mobile App Concept",
+          "Interactive Live Demo",
+          "Art Direction"
+        ]
+      }
+    },
+    {
+      "id": "donuts-and-rolls",
+      "cardTitle": "Donuts & Rolls",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "BRANDING",
+        "PACKAGING"
+      ],
+      "image": "assets/projects/donuts-and-rolls.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/258524773/Donuts-and-Rolls-Visual-Identity",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "BRANDING · IDENTIDAD & PACKAGING",
+        "client": "Donuts & Rolls · Repostería Artesanal",
+        "year": "VISUAL IDENTITY",
+        "title": "Donuts & Rolls — Visual Identity",
+        "impact": "Identidad Retro Ilustrada + Sistema de Packaging Memorables",
+        "challenge": "Crear una identidad visual cálida, divertida y altamente fotogénica para una marca de donas y rolls artesanales que destaque en empaque, punto de venta y redes sociales.",
+        "solution": "Desarrollé una mascota ilustrada con vibra retro sobre patines, tipografía display redondeada y un sistema de packaging en tonos crema y coral con patrones de cuadros aplicado a cajas, vasos, posavasos y stickers coleccionables.",
+        "deliverables": [
+          "Visual Identity",
+          "Packaging Design",
+          "Mascot Illustration",
+          "Typography & Color",
+          "Stickers & Merch",
+          "Art Direction"
+        ]
+      },
+      "en": {
+        "tag": "BRANDING · VISUAL IDENTITY & PACKAGING",
+        "client": "Donuts & Rolls · Artisan Bakery",
+        "year": "VISUAL IDENTITY",
+        "title": "Donuts & Rolls — Visual Identity",
+        "impact": "Playful Retro Mascot + Tactile Packaging System",
+        "challenge": "Craft a warm, joyful, and highly shareable visual identity for an artisan donut and bakery brand built to stand out across packaging, storefront, and social touchpoints.",
+        "solution": "Designed a retro roller-skating mascot paired with bubbly display typography and a cream-and-coral checkered packaging system spanning bakery boxes, takeaway cups, coasters, and collectible stickers.",
+        "deliverables": [
+          "Visual Identity",
+          "Packaging Design",
+          "Mascot Illustration",
+          "Typography & Color",
+          "Stickers & Merch",
+          "Art Direction"
+        ]
+      }
+    },
+    {
+      "id": "alma-de-mar",
+      "cardTitle": "Alma de Mar",
+      "category": "web",
+      "inSlider": true,
+      "tags": [
+        "WEB",
+        "BRANDING",
+        "LUXURY"
+      ],
+      "image": "assets/projects/alma-de-mar.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/230920535/Alma-de-Mar-Luxury-Nautical-Branding-Web-Experience",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "WEB & BRANDING · NÁUTICA DE LUJO",
+        "client": "Alma de Mar · Costa Brava",
+        "year": "BRANDING & WEB EXPERIENCE",
+        "title": "Alma de Mar — Luxury Nautical Branding & Web",
+        "impact": "Identidad Náutica de Lujo + Experiencia Web de Reserva",
+        "challenge": "Transmitir la exclusividad, calma y autenticidad de las travesías privadas en velero por la Costa Brava a través de una marca sofisticada y una web orientada a reservar experiencias.",
+        "solution": "Diseñé una identidad editorial elegante con isotipo de ancla minimalista, atmósfera nocturna azul Mediterráneo y una web inmersiva que presenta las rutas, al capitán y un flujo claro de «Reserva tu travesía».",
+        "deliverables": [
+          "Web Experience UI/UX",
+          "Luxury Branding",
+          "Visual Identity",
+          "Art Direction",
+          "Booking Flow",
+          "Responsive Design"
+        ]
+      },
+      "en": {
+        "tag": "WEB & BRANDING · LUXURY NAUTICAL",
+        "client": "Alma de Mar · Costa Brava",
+        "year": "BRANDING & WEB EXPERIENCE",
+        "title": "Alma de Mar — Luxury Nautical Branding & Web",
+        "impact": "Luxury Nautical Identity + Immersive Booking Web Experience",
+        "challenge": "Capture the exclusivity, serenity, and authenticity of private sailing charters along the Costa Brava through a refined brand identity and conversion-focused web experience.",
+        "solution": "Crafted an editorial luxury identity with a minimalist anchor emblem, deep Mediterranean-night visual atmosphere, and an immersive website highlighting curated voyages, the captain, and a seamless booking flow.",
+        "deliverables": [
+          "Web Experience UI/UX",
+          "Luxury Branding",
+          "Visual Identity",
+          "Art Direction",
+          "Booking Flow",
+          "Responsive Design"
+        ]
+      }
+    },
+    {
+      "id": "raiz",
+      "cardTitle": "RAÍZ",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "BRANDING",
+        "EDITORIAL"
+      ],
+      "image": "assets/projects/raiz.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://dribbble.com/shots/27533700-RA-Z-Boutique-Hotel-Eco-Refuge-Brand-Identity",
+      "source": "dribbble",
+      "gallery": [],
+      "es": {
+        "tag": "CASO 05 · HOSPITALIDAD & ECO-REFUGIO",
+        "client": "RAÍZ · Hotel Boutique & Refugio Ecológico",
+        "year": "DRIBBBLE PORTFOLIO",
+        "title": "RAÍZ — Boutique Hotel & Eco-Refuge",
+        "impact": "Identidad Orgánica + Experiencia Táctil de Lujo",
+        "challenge": "Traducir la calma arquitectónica de un refugio ecológico en piedra y naturaleza en una identidad hotelera sobria, memorable y coherente en cada punto de contacto.",
+        "solution": "Desarrollé un isotipo orgánico inspirado en raíces, una paleta mineral cálida y aplicaciones editoriales para menús, amenities, papelería y señalética del huésped.",
+        "deliverables": [
+          "Hospitality Branding",
+          "Editorial Design",
+          "Packaging & Amenities",
+          "Visual Identity",
+          "Art Direction"
+        ]
+      },
+      "en": {
+        "tag": "CASE 05 · HOSPITALITY & ECO-REFUGE",
+        "client": "RAÍZ · Boutique Hotel & Eco-Refuge",
+        "year": "DRIBBBLE PORTFOLIO",
+        "title": "RAÍZ — Boutique Hotel & Eco-Refuge",
+        "impact": "Organic Identity + Tactile Luxury Guest Experience",
+        "challenge": "Translate the architectural stillness of a stone-and-nature eco-refuge into a refined hospitality brand felt across every physical touchpoint.",
+        "solution": "Crafted a root-inspired organic mark, warm mineral palette, and editorial collateral spanning menus, in-room amenities, textiles, and wayfinding.",
+        "deliverables": [
+          "Hospitality Branding",
+          "Editorial Design",
+          "Packaging & Amenities",
+          "Visual Identity",
+          "Art Direction"
+        ]
+      }
+    },
+    {
+      "id": "incandesce",
+      "cardTitle": "Incandesce",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "BRANDING",
+        "PACKAGING",
+        "LUXURY"
+      ],
+      "image": "assets/projects/incandesce.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/258407261/Incandesce-Luxury-Candle-Brand-Identity-Packaging",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "BRANDING · IDENTIDAD & PACKAGING DE LUJO",
+        "client": "Incandesce · Velas Aromáticas de Lujo",
+        "year": "BRAND IDENTITY & PACKAGING",
+        "title": "Incandesce — Luxury Candle Brand Identity",
+        "impact": "“The sensory state of light.” · Branding Sensorial & Empaque Táctil",
+        "challenge": "Posicionar una marca de velas artesanales en el segmento de lujo sensorial, transmitiendo calidez, introspección y refinamiento desde el primer contacto visual y táctil.",
+        "solution": "Creé un logotipo editorial con serif refinada donde el punto de la «I» cobra vida en forma de llama, acompañado de una paleta borgoña profunda, papel algodón crema y estuches rígidos deslizables pensados para una experiencia de unboxing inolvidable.",
+        "deliverables": [
+          "Luxury Brand Identity",
+          "Packaging Design",
+          "Custom Wordmark",
+          "Materialidad & Acabados",
+          "Art Direction",
+          "Brand Guidelines"
+        ]
+      },
+      "en": {
+        "tag": "BRANDING · LUXURY IDENTITY & PACKAGING",
+        "client": "Incandesce · Luxury Scented Candles",
+        "year": "BRAND IDENTITY & PACKAGING",
+        "title": "Incandesce — Luxury Candle Brand Identity",
+        "impact": "“The sensory state of light.” · Sensory Branding & Tactile Packaging",
+        "challenge": "Position an artisanal candle brand within the sensory luxury segment—conveying warmth, stillness, and refined craftsmanship from the very first visual and tactile impression.",
+        "solution": "Crafted an editorial serif wordmark where the tittle of the “I” transforms into a delicate candle flame, paired with deep plum tinted glass, warm cotton-stock labels, and matte rigid drawer boxes engineered for an elevated unboxing ritual.",
+        "deliverables": [
+          "Luxury Brand Identity",
+          "Packaging Design",
+          "Custom Wordmark",
+          "Materiality & Finishes",
+          "Art Direction",
+          "Brand Guidelines"
+        ]
+      }
+    },
+    {
+      "id": "solis",
+      "cardTitle": "SOLIS Architecture",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "BRANDING",
+        "SYSTEM"
+      ],
+      "image": "assets/projects/solis.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://dribbble.com/shots/27500470-SOLIS-Architecture",
+      "source": "dribbble",
+      "gallery": [],
+      "es": {
+        "tag": "CASO 06 · ARQUITECTURA",
+        "client": "SOLIS Architecture",
+        "year": "DRIBBBLE PORTFOLIO",
+        "title": "SOLIS Architecture",
+        "impact": "Sistema Geométrico + Identidad Editorial Contemporánea",
+        "challenge": "Crear una identidad atemporal para un estudio de arquitectura que acompañe sus obras sin competir con la fotografía espacial.",
+        "solution": "Establecí una retícula sobria, proporciones arquitectónicas exactas y un sistema de marca versátil para portafolios, planos y presencia digital.",
+        "deliverables": [
+          "Brand Identity",
+          "Grid Systems",
+          "Editorial Collateral",
+          "Visual Direction"
+        ]
+      },
+      "en": {
+        "tag": "CASE 06 · ARCHITECTURE",
+        "client": "SOLIS Architecture",
+        "year": "DRIBBBLE PORTFOLIO",
+        "title": "SOLIS Architecture",
+        "impact": "Geometric System + Contemporary Editorial Identity",
+        "challenge": "Create a timeless architectural studio identity that elevates spatial photography without ever competing with the built work.",
+        "solution": "Established a disciplined Swiss grid, architectural proportions, and a versatile visual identity spanning print portfolios, drawings, and digital media.",
+        "deliverables": [
+          "Brand Identity",
+          "Grid Systems",
+          "Editorial Collateral",
+          "Visual Direction"
+        ]
+      }
+    },
+    {
+      "id": "stashed",
+      "cardTitle": "Stashed",
+      "category": "web",
+      "inSlider": true,
+      "tags": [
+        "FINTECH",
+        "MOBILE APP",
+        "UI/UX"
+      ],
+      "image": "assets/projects/stashed.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/258595007/Stashed-Micro-Savings-Fintech-App",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "PRODUCT DESIGN · FINTECH MOBILE APP",
+        "client": "Stashed · Micro-Savings Fintech",
+        "year": "UI/UX & MOBILE PRODUCT",
+        "title": "Stashed — Micro-Savings Fintech App",
+        "impact": "App Móvil de Micro-Ahorro · Billetera Inteligente & Control de Tarjetas",
+        "challenge": "Simplificar el hábito del micro-ahorro diario para usuarios jóvenes mediante una experiencia financiera luminosa, clara y libre de fricción técnica o jerga bancaria.",
+        "solution": "Diseñé una aplicación móvil limpia en azul cobalto y blanco con seguimiento visual de balance en tiempo real, gestión instantánea de tarjetas (detalles, congelar, límites mensuales) y componentes iOS escalables.",
+        "deliverables": [
+          "Mobile App UI/UX",
+          "Fintech Product Design",
+          "Design System iOS",
+          "Wallet & Cards Flow",
+          "Data Visualization",
+          "Prototipado Interactivo"
+        ]
+      },
+      "en": {
+        "tag": "PRODUCT DESIGN · FINTECH MOBILE APP",
+        "client": "Stashed · Micro-Savings Fintech",
+        "year": "UI/UX & MOBILE PRODUCT",
+        "title": "Stashed — Micro-Savings Fintech App",
+        "impact": "Micro-Savings Mobile App · Smart Wallet & Instant Card Controls",
+        "challenge": "Make everyday micro-saving effortless and intuitive for mobile-first users through a bright, trustworthy financial experience free of banking friction.",
+        "solution": "Designed a crisp cobalt-blue and white mobile app featuring real-time savings curves, instant card controls (details, freeze, monthly limits), smart notifications, and a modular iOS component system.",
+        "deliverables": [
+          "Mobile App UI/UX",
+          "Fintech Product Design",
+          "iOS Design System",
+          "Wallet & Cards Flow",
+          "Data Visualization",
+          "Interactive Prototyping"
+        ]
+      }
+    },
+    {
+      "id": "logos-marks",
+      "cardTitle": "Logos & Marks",
+      "category": "branding",
+      "inSlider": true,
+      "tags": [
+        "LOGOFOLIO",
+        "BRANDING",
+        "MARKS"
+      ],
+      "image": "assets/projects/logos-marks.jpg",
+      "demoUrl": "",
+      "appDemoUrl": "",
+      "url": "https://www.behance.net/gallery/244801521/Logos-Marks-Collection-",
+      "source": "behance",
+      "gallery": [],
+      "es": {
+        "tag": "BRANDING · LOGOFOLIO VOL. 1",
+        "client": "Colección Curada · Marcas & Símbolos",
+        "year": "LOGOFOLIO VOL. 1",
+        "title": "Logos & Marks Collection",
+        "impact": "Selección de Logotipos, Monogramas & Símbolos Geométricos",
+        "challenge": "Reunir en una curaduría cohesiva una selección de marcas, símbolos e identidades desarrolladas para distintas industrias, demostrando síntesis conceptual y precisión geométrica.",
+        "solution": "Compilé Logofolio Vol. 1 bajo una dirección editorial oscura y minimalista que destaca la construcción reticular, la escalabilidad en micro-tamaños y el carácter propio de cada símbolo.",
+        "deliverables": [
+          "Logo Design",
+          "Brand Marks",
+          "Monogramas",
+          "Sistemas Geométricos",
+          "Tipografía de Marca",
+          "Logofolio Editorial"
+        ]
+      },
+      "en": {
+        "tag": "BRANDING · LOGOFOLIO VOL. 1",
+        "client": "Curated Selection · Brands & Symbols",
+        "year": "LOGOFOLIO VOL. 1",
+        "title": "Logos & Marks Collection",
+        "impact": "Curated Selection of Logos, Monograms & Geometric Marks",
+        "challenge": "Bring together a cohesive curation of logos, symbols, and brand marks crafted across diverse industries—highlighting conceptual clarity and geometric rigor.",
+        "solution": "Presented Logofolio Vol. 1 in a sleek dark editorial direction emphasizing grid construction, legibility at any scale, and distinctive personality across every mark.",
+        "deliverables": [
+          "Logo Design",
+          "Brand Marks",
+          "Monograms",
+          "Geometric Grids",
+          "Brand Typography",
+          "Editorial Logofolio"
+        ]
+      }
+    }
+  ]
+}

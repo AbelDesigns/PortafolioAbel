@@ -1942,7 +1942,6 @@
   const heroT2a = document.getElementById('heroT2a');
   const heroT2b = document.getElementById('heroT2b');
   const heroT3 = document.getElementById('heroT3');
-  const heroWorkPillImg = document.getElementById('heroWorkPillImg');
 
   let currentTrack = 'all';
 
@@ -1954,10 +1953,6 @@
     if (heroT2a) heroT2a.textContent = copy.t2a;
     if (heroT2b) heroT2b.textContent = copy.t2b;
     if (heroT3) heroT3.textContent = copy.t3;
-    if (heroWorkPillImg && copy.workImg) {
-      heroWorkPillImg.src = copy.workImg;
-      heroWorkPillImg.alt = copy.workAlt || '';
-    }
 
     if (animate && hasGSAP && !prefersReducedMotion) {
       gsap.fromTo(
@@ -1967,9 +1962,6 @@
       );
       if (heroKickerPill) {
         gsap.fromTo(heroKickerPill, { y: 6, opacity: 0 }, { y: 0, opacity: 1, duration: 0.34, ease: 'power3.out', overwrite: true, clearProps: 'transform' });
-      }
-      if (heroWorkPillImg) {
-        gsap.fromTo(heroWorkPillImg, { scale: 1.14 }, { scale: 1, duration: 0.65, ease: 'expo.out', overwrite: true, clearProps: 'transform' });
       }
     }
   }

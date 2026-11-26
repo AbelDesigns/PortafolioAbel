@@ -1138,6 +1138,14 @@ footer[id] {
   padding: clamp(56px, 8vh, 96px) 0 clamp(96px, 14vh, 160px);
 }
 
+.story-stack__head {
+  margin-bottom: clamp(28px, 4.5vh, 52px);
+}
+
+.story-stack__title {
+  color: var(--bone);
+}
+
 .stack-deck {
   display: flex;
   flex-direction: column;

@@ -324,6 +324,7 @@
         }
       },
       html: {
+        'story.methodologyTitle': 'Metodología de <em class="serif-accent">trabajo</em>',
         'story.ch0Title': 'Decisiones basadas en <em class="serif-accent">datos reales</em>, nunca al azar.',
         'story.ch1Title': 'Arquitectura <em class="serif-accent">Mobile-First</em> sin fricción.',
         'story.ch2Title': 'Design Systems hechos para <em class="serif-accent">escalar</em> en equipo.',
@@ -560,6 +561,7 @@
         }
       },
       html: {
+        'story.methodologyTitle': 'Work <em class="serif-accent">methodology</em>',
         'story.ch0Title': 'Decisions backed by <em class="serif-accent">real data</em>, never guesswork.',
         'story.ch1Title': '<em class="serif-accent">Mobile-First</em> flows without friction.',
         'story.ch2Title': 'Design Systems built to <em class="serif-accent">scale</em> with teams.',

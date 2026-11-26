@@ -1181,7 +1181,7 @@
     const isActive = index >= 0;
     kineticWord?.classList.toggle('has-hover', isActive);
 
-    const expandedWeight = 3.7;
+    const expandedWeight = 2.15;
     const compressedWeight = (kineticLetters.length - expandedWeight) / Math.max(1, kineticLetters.length - 1);
 
     kineticLetters.forEach((btn, i) => {
@@ -2038,12 +2038,8 @@
       );
     }
 
-    // 4. Highlight matching letters in Kinetic ABEL ACOSTA showcase
-    kineticLetters.forEach((btn, idx) => {
-      const item = kineticItems[idx];
-      const match = safeTrack === 'all' || item?.category === safeTrack;
-      btn.classList.toggle('is-dimmed', !match);
-    });
+    // 4. Keep all ABEL ACOSTA letters solid and readable regardless of slider filter
+    kineticLetters.forEach((btn) => btn.classList.remove('is-dimmed'));
 
     if (hasGSAP) {
       ScrollTrigger.refresh();

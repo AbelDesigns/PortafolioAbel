@@ -183,6 +183,7 @@ footer[id] {
 }
 
 @keyframes pulseDot {
+
   0%,
   100% {
     opacity: 1;
@@ -481,15 +482,6 @@ footer[id] {
   align-items: center;
   justify-content: flex-end;
   gap: 18px;
-}
-
-.kinetic-letter.is-dimmed {
-  color: #d6d3c8 !important;
-}
-
-.kinetic-letter.is-dimmed:hover,
-.kinetic-letter.is-dimmed.is-active {
-  color: #111110 !important;
 }
 
 .nav-drawer__links {
@@ -2764,6 +2756,7 @@ footer[id] {
 }
 
 @media (max-width: 900px) {
+
   .about-hero,
   .about-columns,
   .about-principles {
@@ -3346,7 +3339,7 @@ footer[id] {
   gap: 6px;
 }
 
-.admin-field > span {
+.admin-field>span {
   font-family: var(--font-mono);
   font-size: 0.68rem;
   letter-spacing: 0.06em;

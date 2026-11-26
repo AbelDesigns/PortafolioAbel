@@ -44,19 +44,6 @@
       };
       requestAnimationFrame(lenisRaf);
     }
-
-    // Route in-page anchor links smoothly through Lenis
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener('click', (e) => {
-        const href = anchor.getAttribute('href');
-        if (!href || href === '#') return;
-        const target = document.querySelector(href);
-        if (!target) return;
-        e.preventDefault();
-        const offset = href === '#proyectos' || href === '#inicio' ? 0 : -72;
-        lenis.scrollTo(target, { offset, duration: 1.1 });
-      });
-    });
   }
 
   function clamp(val, min, max) {
@@ -69,6 +56,22 @@
       if (locked) lenis.stop();
       else lenis.start();
     }
+  }
+
+  function scrollToAnchor(href, duration = 1.0) {
+    if (!href || !href.startsWith('#') || href.length <= 1) return false;
+    const target = document.querySelector(href);
+    if (!target) return false;
+    const offset = href === '#proyectos' || href === '#inicio' ? 0 : -72;
+    requestAnimationFrame(() => {
+      if (lenis) {
+        lenis.start();
+        lenis.scrollTo(target, { offset, duration, force: true });
+      } else {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+    return true;
   }
 
   // Live Maracaibo Local Time Microcopy (MotionSites craft.md)
@@ -596,7 +599,7 @@
     menuToggle.setAttribute('aria-expanded', String(open));
     navDrawer.setAttribute('aria-hidden', String(!open));
     updateNavLabel();
-    lockPageScroll(open || Boolean(activeCaseId));
+    lockPageScroll(open || Boolean(activeCaseId) || Boolean(aboutOpen));
 
     if (open && hasGSAP && !prefersReducedMotion) {
       const links = navDrawer.querySelectorAll('.nav-drawer__link');
@@ -620,7 +623,30 @@
   navBackdrop?.addEventListener('click', () => setMenuOpen(false));
 
   navDrawer?.querySelectorAll('a[href^="#"]').forEach((link) => {
-    link.addEventListener('click', () => setMenuOpen(false));
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (!href || href === '#') return;
+      e.preventDefault();
+      if (typeof closeCaseModal === 'function') closeCaseModal(true);
+      if (typeof closeAboutModal === 'function') closeAboutModal(true);
+      setMenuOpen(false);
+      scrollToAnchor(href, 1.0);
+    });
+  });
+
+  // Route all remaining in-page anchor links smoothly (after closing any open overlays)
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    if (anchor.closest('#navDrawer')) return;
+    anchor.addEventListener('click', (e) => {
+      const href = anchor.getAttribute('href');
+      if (!href || href === '#') return;
+      if (!document.querySelector(href)) return;
+      e.preventDefault();
+      if (navShell?.classList.contains('is-open')) setMenuOpen(false);
+      if (typeof closeCaseModal === 'function' && activeCaseId) closeCaseModal(true);
+      if (typeof closeAboutModal === 'function' && aboutOpen) closeAboutModal(true);
+      scrollToAnchor(href, 1.0);
+    });
   });
 
   /* ------------------------------------------------------------------------
@@ -2025,11 +2051,7 @@
 
     // Keep user cleanly anchored at start of #proyectos when switching filters
     if (scrollToProjects && projectsSection) {
-      if (lenis) {
-        lenis.scrollTo(projectsSection, { offset: 0, duration: 0.55 });
-      } else {
-        projectsSection.scrollIntoView({ behavior: 'smooth' });
-      }
+      scrollToAnchor('#proyectos', 0.6);
     }
   }
 

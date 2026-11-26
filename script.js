@@ -2211,7 +2211,7 @@
     });
 
     // Contact footer finale
-    gsap.from('.contact__headline, .contact__reassurance, .contact__actions', {
+    gsap.from('.contact__headline, .contact__actions', {
       y: 26,
       opacity: 0,
       duration: 0.65,

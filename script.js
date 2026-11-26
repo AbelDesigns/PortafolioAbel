@@ -235,8 +235,7 @@
         'kinetic.hint': 'pasa el cursor sobre las letras para explorar proyectos ↘',
         'kinetic.mobileHint': 'TOCA CUALQUIER LETRA PARA EXPLORAR UN PROYECTO ↗',
 
-        'contact.reassurance':
-          'Cuéntame tu proyecto por correo o WhatsApp. Respondo en menos de 24 h, sin compromiso.',
+        'contact.reassurance': 'Cuéntame tu proyecto por correo o WhatsApp.',
         'contact.copy': 'Copiar',
         'contact.role': 'Diseñador UI/UX y Especialista en Branding',
         'contact.legal': '© 2026 Abel Acosta. Diseñado bajo enfoque Mobile-First.',
@@ -472,8 +471,7 @@
         'kinetic.hint': 'hover across the letters to explore projects ↘',
         'kinetic.mobileHint': 'TAP ANY LETTER TO OPEN A PROJECT ↗',
 
-        'contact.reassurance':
-          'Send your project details by email or WhatsApp. I reply within 24 hours, no strings attached.',
+        'contact.reassurance': 'Send your project details by email or WhatsApp.',
         'contact.copy': 'Copy',
         'contact.role': 'UI/UX Designer & Branding Specialist',
         'contact.legal': '© 2026 Abel Acosta. Built with Mobile-First precision.',
